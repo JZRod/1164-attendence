@@ -35,20 +35,6 @@ Built with **Python + Tkinter**, this app provides a simple full-screen interfac
 
 ---
 
-## 📂 Project Structure
-├── assets/ # Logos and icons
-│ ├── logo.png
-│ └── gear.png
-├── data/ # Persistent app data
-│ ├── attendance.csv
-│ ├── students.json
-│ └── config.json
-├── FRC-1164-Attendance-System.py # Main application
-└── README.md # You are here
-
-
----
-
 ## 🚀 Getting Started
 
 ### Requirements
