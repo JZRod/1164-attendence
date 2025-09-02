@@ -2,7 +2,7 @@
 
 ![Logo](assets/logo.png)
 
-A lightweight, Windows-7-compatible attendance tracking system for **FRC Team 1164**.  
+A lightweight, Windows-10-compatible attendance tracking system for **FRC Team 1164 Project NEO**.  
 Built with **Python + Tkinter**, this app provides a simple full-screen interface for team members to check in, while giving admins full control over attendance records, student management, and system settings.
 
 ---
@@ -16,10 +16,9 @@ Built with **Python + Tkinter**, this app provides a simple full-screen interfac
 
 ### 📊 Admin Panel
 - PIN-protected admin access.
-- View, refresh, and download attendance logs as CSV.
+- View, and download attendance logs as CSV spreadsheet.
 - Add, edit, or remove students.
 - Customize header color and logo.
-- Close buttons on every admin panel tab.
 
 ### 🎨 Customization
 - Change team logo directly from settings.
@@ -41,8 +40,24 @@ Built with **Python + Tkinter**, this app provides a simple full-screen interfac
 - Python 3.7 or newer (3.7/3.8 recommended for Windows 7)
 - [Pillow](https://pypi.org/project/pillow/) for image support
 
-### Installation
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/JZRod/1164-attendence.git
-   cd 1164-attendence
+### Installation with Installer
+1. Install Python 3.7 or newer from [Python.org](https://www.python.org/downloads/)
+2. Download the Installer from the releases page
+3. Run the Installer
+
+### Instalation with the standalone executable
+1. Install Python 3.7 or newer from [Python.org](https://www.python.org/downloads/)
+2. Download the newest release from the releases page
+3. Download or create your own "assets" and "data" folders and place them in the same directory as the executable.
+
+### 📊 Admin Panel
+- Default PIN is 1234
+- PIN can be changed from within the admin panel settings tab by pressing the change PIN button
+
+### 🖥 Fullscreen & Scrolling
+- The app will auto launch in fullscreen mode
+- Fullscreen can be exited/entered by pressing F11 or Esc
+
+## Credits
+- Developed by JZRod with lots of help from ChatGPT, Replit AI, Github Copilot, and Claude AI
+- Developed for FRC team 1164 Project NEO
